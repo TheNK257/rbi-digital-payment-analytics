@@ -1,0 +1,5 @@
+channel_key,channel_name,channel_type,is_digital
+1,ATM,Physical Infrastructure,False
+2,POS Terminal,Merchant Acceptance,True
+3,Online / E-Commerce,Digital Remote,True
+4,Micro ATM & QR,Agent & QR Network,True

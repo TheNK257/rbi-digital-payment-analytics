@@ -1,0 +1,181 @@
+bank_key,bank_name,anchor_bank,is_merged,merge_year
+1,1 Number Of Atm Deployed On Site By The Bank.,1 Number Of Atm Deployed On Site By The Bank.,False,0
+2,1 Number Of Atms & Crms Deployed On Site By The Bank.,1 Number Of Atms & Crms Deployed On Site By The Bank.,False,0
+3,1 Number Of Atms And Crms Deployed On Site By The Bank.,1 Number Of Atms And Crms Deployed On Site By The Bank.,False,0
+4,1 Total Number Of Atms & Crms Deployed On-Site By The Bank,1 Total Number Of Atms & Crms Deployed On-Site By The Bank,False,0
+5,1 Total Number Of Atms Deployed On-Site By The Bank,1 Total Number Of Atms Deployed On-Site By The Bank,False,0
+6,10 Total Number Of Debit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled).,10 Total Number Of Debit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled).,False,0
+7,10 Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Atms,10 Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Atms,False,0
+8,10 Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals,10 Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals,False,0
+9,11 Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Online And E-Commerce Sites,11 Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Online And E-Commerce Sites,False,0
+10,11 Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Atms,11 Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Atms,False,0
+11,11 Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals.,11 Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals.,False,0
+12,12 Total Number Of Debit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled).,12 Total Number Of Debit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled).,False,0
+13,12 Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,12 Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,False,0
+14,12 Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Online And E-Commerce Sites,12 Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Online And E-Commerce Sites,False,0
+15,13 Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Atms,13 Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Atms,False,0
+16,13 Total Number Of Other Financial Transactions Done By The Credit Card Issued By The Bank (Example: Mail-Order And Tele-Order Transactions),13 Total Number Of Other Financial Transactions Done By The Credit Card Issued By The Bank (Example: Mail-Order And Tele-Order Transactions),False,0
+17,13 Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Atms,13 Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Atms,False,0
+18,14 Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,14 Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,False,0
+19,14 Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals.,14 Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals.,False,0
+20,14 Total Value Of Other Financial Transactions Done By The Credit Card Issued By The Bank (Example: Mail-Order And Tele-Order Transactions),14 Total Value Of Other Financial Transactions Done By The Credit Card Issued By The Bank (Example: Mail-Order And Tele-Order Transactions),False,0
+21,15 Total Number Of Cash Withdrawal Transactions Done By The Credit Card Issued By The Bank At Atms,15 Total Number Of Cash Withdrawal Transactions Done By The Credit Card Issued By The Bank At Atms,False,0
+22,15 Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Atms,15 Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Atms,False,0
+23,16 Total Value Of Cash Withdrawal Transactions Done By The Credit Card Issued By The Bank At Atms,16 Total Value Of Cash Withdrawal Transactions Done By The Credit Card Issued By The Bank At Atms,False,0
+24,16 Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals.,16 Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals.,False,0
+25,17 Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,17 Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,False,0
+26,18 Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,18 Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,False,0
+27,19 Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Online And E-Commerce Sites,19 Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Online And E-Commerce Sites,False,0
+28,2 Number Of Atm Deployed Off Site By The Bank.,2 Number Of Atm Deployed Off Site By The Bank.,False,0
+29,2 Number Of Atms & Crms Deployed Off Site By The Bank.,2 Number Of Atms & Crms Deployed Off Site By The Bank.,False,0
+30,2 Number Of Atms And Crms Deployed Off Site By The Bank.,2 Number Of Atms And Crms Deployed Off Site By The Bank.,False,0
+31,2 Total Number Of Atms & Crms Deployed Off-Site By The Bank,2 Total Number Of Atms & Crms Deployed Off-Site By The Bank,False,0
+32,2 Total Number Of Atms Deployed Off-Site By The Bank,2 Total Number Of Atms Deployed Off-Site By The Bank,False,0
+33,20 Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Online And E-Commerce Sites,20 Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Online And E-Commerce Sites,False,0
+34,"21 Total Number Of Other Financial Transactions Done By The Debit Card Issued By The Bank (Example: Debit Card Transactions Done At Atms Viz Card To Card Transactions, Bill Payments, Credit Card Payments, Mobile Recharge Etc)","21 Total Number Of Other Financial Transactions Done By The Debit Card Issued By The Bank (Example: Debit Card Transactions Done At Atms Viz Card To Card Transactions, Bill Payments, Credit Card Payments, Mobile Recharge Etc)",False,0
+35,"22 Total Value Of Other Financial Transactions Done By The Debit Card Issued By The Bank (Example: Debit Card Transactions Done At Atms Viz Card To Card Transactions, Bill Payments, Credit Card Payments, Mobile Recharge Etc)","22 Total Value Of Other Financial Transactions Done By The Debit Card Issued By The Bank (Example: Debit Card Transactions Done At Atms Viz Card To Card Transactions, Bill Payments, Credit Card Payments, Mobile Recharge Etc)",False,0
+36,23 Total Number Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Atms,23 Total Number Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Atms,False,0
+37,24 Total Value Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Atms,24 Total Value Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Atms,False,0
+38,25 Total Number Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,25 Total Number Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,False,0
+39,26 Total Value Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,26 Total Value Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,False,0
+40,3 Number Of Pos Deployed Online By The Bank,3 Number Of Pos Deployed Online By The Bank,False,0
+41,3 Total Number Of Pos Terminals Deployed By The Bank,3 Total Number Of Pos Terminals Deployed By The Bank,False,0
+42,4 Number Of Pos Deployed Offline By The Bank,4 Number Of Pos Deployed Offline By The Bank,False,0
+43,4 Total Number Of Micro Atms Deployed By The Bank,4 Total Number Of Micro Atms Deployed By The Bank,False,0
+44,5 Number Of Micro Atms Deployed By The Bank,5 Number Of Micro Atms Deployed By The Bank,False,0
+45,5 Total Number Of Bharat Qr Codes Deployed By The Bank,5 Total Number Of Bharat Qr Codes Deployed By The Bank,False,0
+46,5 Total Number Of Credit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled).,5 Total Number Of Credit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled).,False,0
+47,6 Number Of Bharat Qr Deployed By The Bank,6 Number Of Bharat Qr Deployed By The Bank,False,0
+48,6 Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Atms,6 Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Atms,False,0
+49,6 Total Number Of Upi Qr Codes Deployed By The Bank,6 Total Number Of Upi Qr Codes Deployed By The Bank,False,0
+50,7 Total Number Of Credit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled),7 Total Number Of Credit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled),False,0
+51,7 Total Number Of Credit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled).,7 Total Number Of Credit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled).,False,0
+52,7 Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals,7 Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals,False,0
+53,8 Total Number Of Debit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled),8 Total Number Of Debit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled),False,0
+54,8 Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Atms,8 Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Atms,False,0
+55,8 Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Atms,8 Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Atms,False,0
+56,9 Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals,9 Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals,False,0
+57,9 Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals.,9 Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals.,False,0
+58,AU Small Finance Bank,AU Small Finance Bank,False,0
+59,Aditya Birla Idea Payments Bank,Aditya Birla Idea Payments Bank,False,0
+60,Airtel Payments Bank,Airtel Payments Bank,False,0
+61,Allahabad Bank,Indian Bank,True,2020
+62,American Express,American Express,False,0
+63,Andhra Bank,Union Bank of India,True,2020
+64,At Pos,At Pos,False,0
+65,Atm,Atm,False,0
+66,Atms & Crms,Atms & Crms,False,0
+67,Axis Bank,Axis Bank,False,0
+68,Bandhan Bank,Bandhan Bank,False,0
+69,Bank of America,Bank of America,False,0
+70,Bank of Bahrain & Kuwait,Bank of Bahrain & Kuwait,False,0
+71,Bank of Baroda,Bank of Baroda,False,0
+72,Bank of India,Bank of India,False,0
+73,Bank of Maharashtra,Bank of Maharashtra,False,0
+74,Barclays Bank,Barclays Bank,False,0
+75,CSB Bank,CSB Bank,False,0
+76,Canara Bank,Canara Bank,False,0
+77,Capital Small Finance Bank,Capital Small Finance Bank,False,0
+78,Central Bank of India,Central Bank of India,False,0
+79,Citi Bank,Axis Bank,True,2023
+80,City Union Bank,City Union Bank,False,0
+81,Corporation Bank,Union Bank of India,True,2020
+82,Csb Bank Ltd,Csb Bank Ltd,False,0
+83,Csb Bank Ltd.,Csb Bank Ltd.,False,0
+84,DBS Bank,DBS Bank,False,0
+85,DCB Bank,DCB Bank,False,0
+86,Deutsche Bank,Deutsche Bank,False,0
+87,Dhanalaxmi Bank Ltd,Dhanalaxmi Bank Ltd,False,0
+88,Dhanlaxmi Bank,Dhanlaxmi Bank,False,0
+89,Doha Bank,Doha Bank,False,0
+90,ESAF Small Finance Bank,ESAF Small Finance Bank,False,0
+91,Equitas Small Finance Bank,Equitas Small Finance Bank,False,0
+92,Federal Bank,Federal Bank,False,0
+93,Fincare Small Finance Bank,Fincare Small Finance Bank,False,0
+94,Fincare Small Finance Bank Ltd,Fincare Small Finance Bank Ltd,False,0
+95,Fino Payments Bank,Fino Payments Bank,False,0
+96,HDFC Bank,HDFC Bank,False,0
+97,HSBC,HSBC,False,0
+98,ICICI Bank,ICICI Bank,False,0
+99,IDBI Bank,IDBI Bank,False,0
+100,IDFC First Bank,IDFC First Bank,False,0
+101,India Post Payments Bank,India Post Payments Bank,False,0
+102,Indian Bank,Indian Bank,False,0
+103,Indian Overseas Bank,Indian Overseas Bank,False,0
+104,IndusInd Bank,IndusInd Bank,False,0
+105,J&K Bank,J&K Bank,False,0
+106,Jana Small Finance Bank,Jana Small Finance Bank,False,0
+107,Jio Payments Bank,Jio Payments Bank,False,0
+108,KEB Hana Bank,KEB Hana Bank,False,0
+109,Karnataka Bank,Karnataka Bank,False,0
+110,Karur Vysya Bank,Karur Vysya Bank,False,0
+111,Kookmin Bank,Kookmin Bank,False,0
+112,Kotak Mahindra Bank,Kotak Mahindra Bank,False,0
+113,Laxmi Vilas Bank,DBS Bank,True,2020
+114,NSDL Payments Bank,NSDL Payments Bank,False,0
+115,Nainital Bank,Nainital Bank,False,0
+116,North East Small Finance Bank,North East Small Finance Bank,False,0
+117,Number - Outstanding (As On Month End),Number - Outstanding (As On Month End),False,0
+118,Number Of Atm Deployed Off Site By The Bank.,Number Of Atm Deployed Off Site By The Bank.,False,0
+119,Number Of Atm Deployed On Site By The Bank.,Number Of Atm Deployed On Site By The Bank.,False,0
+120,Number Of Pos Deployed Offline By The Bank,Number Of Pos Deployed Offline By The Bank,False,0
+121,Number Of Pos Deployed Online By The Bank,Number Of Pos Deployed Online By The Bank,False,0
+122,Oriental Bank of Commerce,Punjab National Bank,True,2020
+123,Payment Banks,Payment Banks,False,0
+124,Paytm Payments Bank,Paytm Payments Bank,False,0
+125,Punjab & Sind Bank,Punjab & Sind Bank,False,0
+126,Punjab National Bank,Punjab National Bank,False,0
+127,RBL Bank,RBL Bank,False,0
+128,SBM Bank,SBM Bank,False,0
+129,Shivalik Small Finance Bank,Shivalik Small Finance Bank,False,0
+130,Shivalik Small Finance Bank Limited,Shivalik Small Finance Bank Limited,False,0
+131,Small Finance Banks,Small Finance Banks,False,0
+132,South Indian Bank,South Indian Bank,False,0
+133,Standard Chartered Bank,Standard Chartered Bank,False,0
+134,State Bank of India,State Bank of India,False,0
+135,Suryoday Small Finance Bank,Suryoday Small Finance Bank,False,0
+136,Syndicate Bank,Canara Bank,True,2020
+137,Tamilnad Mercantile Bank,Tamilnad Mercantile Bank,False,0
+138,Total Number Of Atms & Crms Deployed Off-Site By The Bank,Total Number Of Atms & Crms Deployed Off-Site By The Bank,False,0
+139,Total Number Of Atms & Crms Deployed On-Site By The Bank,Total Number Of Atms & Crms Deployed On-Site By The Bank,False,0
+140,Total Number Of Bharat Qr Codes Deployed By The Bank,Total Number Of Bharat Qr Codes Deployed By The Bank,False,0
+141,Total Number Of Cash Withdrawal Transactions Done By The Credit Card Issued By The Bank At Atms,Total Number Of Cash Withdrawal Transactions Done By The Credit Card Issued By The Bank At Atms,False,0
+142,Total Number Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Atms,Total Number Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Atms,False,0
+143,Total Number Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,Total Number Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,False,0
+144,Total Number Of Credit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled),Total Number Of Credit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled),False,0
+145,Total Number Of Credit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled).,Total Number Of Credit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled).,False,0
+146,Total Number Of Debit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled),Total Number Of Debit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled),False,0
+147,Total Number Of Debit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled).,Total Number Of Debit Cards Issued Outstanding (After Adjusting The Number Of Cards Withdrawan/Cancelled).,False,0
+148,Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Atms,Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Atms,False,0
+149,Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Online And E-Commerce Sites,Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Online And E-Commerce Sites,False,0
+150,Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals,Total Number Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals,False,0
+151,Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Atms,Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Atms,False,0
+152,Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Online And E-Commerce Sites,Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Online And E-Commerce Sites,False,0
+153,Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,Total Number Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,False,0
+154,Total Number Of Micro Atms Deployed By The Bank,Total Number Of Micro Atms Deployed By The Bank,False,0
+155,Total Number Of Other Financial Transactions Done By The Credit Card Issued By The Bank (Example: Mail-Order And Tele-Order Transactions),Total Number Of Other Financial Transactions Done By The Credit Card Issued By The Bank (Example: Mail-Order And Tele-Order Transactions),False,0
+156,"Total Number Of Other Financial Transactions Done By The Debit Card Issued By The Bank (Example: Debit Card Transactions Done At Atms Viz Card To Card Transactions, Bill Payments, Credit Card Payments, Mobile Recharge Etc)","Total Number Of Other Financial Transactions Done By The Debit Card Issued By The Bank (Example: Debit Card Transactions Done At Atms Viz Card To Card Transactions, Bill Payments, Credit Card Payments, Mobile Recharge Etc)",False,0
+157,Total Number Of Pos Terminals Deployed By The Bank,Total Number Of Pos Terminals Deployed By The Bank,False,0
+158,Total Number Of Upi Qr Codes Deployed By The Bank,Total Number Of Upi Qr Codes Deployed By The Bank,False,0
+159,Total Value Of Cash Withdrawal Transactions Done By The Credit Card Issued By The Bank At Atms,Total Value Of Cash Withdrawal Transactions Done By The Credit Card Issued By The Bank At Atms,False,0
+160,Total Value Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Atms,Total Value Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Atms,False,0
+161,Total Value Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,Total Value Of Cash Withdrawal Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,False,0
+162,Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Atms,Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Atms,False,0
+163,Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Online And E-Commerce Sites,Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Online And E-Commerce Sites,False,0
+164,Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals,Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals,False,0
+165,Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals.,Total Value Of Financial Transactions Done By The Credit Card Issued By The Bank At Pos Terminals.,False,0
+166,Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Atms,Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Atms,False,0
+167,Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Online And E-Commerce Sites,Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Online And E-Commerce Sites,False,0
+168,Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals,False,0
+169,Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals.,Total Value Of Financial Transactions Done By The Debit Card Issued By The Bank At Pos Terminals.,False,0
+170,Total Value Of Other Financial Transactions Done By The Credit Card Issued By The Bank (Example: Mail-Order And Tele-Order Transactions),Total Value Of Other Financial Transactions Done By The Credit Card Issued By The Bank (Example: Mail-Order And Tele-Order Transactions),False,0
+171,"Total Value Of Other Financial Transactions Done By The Debit Card Issued By The Bank (Example: Debit Card Transactions Done At Atms Viz Card To Card Transactions, Bill Payments, Credit Card Payments, Mobile Recharge Etc)","Total Value Of Other Financial Transactions Done By The Debit Card Issued By The Bank (Example: Debit Card Transactions Done At Atms Viz Card To Card Transactions, Bill Payments, Credit Card Payments, Mobile Recharge Etc)",False,0
+172,UCO Bank,UCO Bank,False,0
+173,Ujjivan Small Finance Bank,Ujjivan Small Finance Bank,False,0
+174,Union Bank of India,Union Bank of India,False,0
+175,United Bank of India,Punjab National Bank,True,2020
+176,Unity Small Finance Bank,Unity Small Finance Bank,False,0
+177,Unity Small Finance Bank Limited,Unity Small Finance Bank Limited,False,0
+178,Utkarsh Small Finance Bank,Utkarsh Small Finance Bank,False,0
+179,Woori Bank,Woori Bank,False,0
+180,Yes Bank,Yes Bank,False,0
