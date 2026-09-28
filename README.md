@@ -118,47 +118,88 @@ During the 2020–2024 period, RBI reporting underwent substantial real-world ch
 
 ## Dimensional Model (Star Schema)
 
-The database `rbi_banking_bi` is organized into a Star Schema with **1 central Fact table** and **4 Dimension tables**:
+The database `rbi_banking_bi` is organized into an enterprise **Star Schema** comprising **1 central Fact table** and **4 Dimension tables** connected via 1-to-Many (`1:N`) referential integrity constraints.
 
-### Schema Diagram
+### Star Schema Architecture Diagram
 
 ```
-       ┌────────────────────────┐
-       │        Dim_Date        │
-       ├────────────────────────┤
-       │ PK  date_key (YYYYMM)  │
-       │     year               │
-       │     month              │
-       │     month_name         │
-       │     quarter            │
-       │     fiscal_year        │
-       └───────────┬────────────┘
-                   │
-                   │ 1:N
-                   ▼
-┌────────────────────────┐       ┌────────────────────────┐       ┌────────────────────────┐
-│        Dim_Bank        │       │    Fact_Transaction    │       │   Dim_BankCategory     │
-├────────────────────────┤       ├────────────────────────┤       ├────────────────────────┤
-│ PK  bank_key           │◄──────┤ PK  txn_id             │──────►│ PK  category_key       │
-│     bank_name          │  N:1  │ FK  date_key           │  N:1  │     category_name      │
-│     anchor_bank        │       │ FK  bank_key           │       │     sector             │
-│     is_merged          │       │ FK  category_key       │       └────────────────────────┘
-│     merge_year         │       │ FK  channel_key        │
-└────────────────────────┘       │     atm_onsite_count   │
-                                 │     atm_offsite_count  │
-                                 │     atm_total_count    │
-       ┌────────────────────────┐│     pos_online_count   │
-       │       Dim_Channel      ││     micro_atm_count    │
-       ├────────────────────────┤│     credit_cards_out.. │
-       │ PK  channel_key        ││     debit_cards_out..  │
-       │     channel_name       ││     credit_txn_pos_vol │
-       │     channel_type       ││     credit_txn_pos_val │
-       │     is_digital         ││     debit_txn_atm_vol  │
-       └───────────▲────────────┘│     debit_txn_pos_vol  │
-                   │  N:1        │     ...                │
-                   └─────────────┤     is_reported        │
-                                 └────────────────────────┘
+                             ┌──────────────────────────────────────┐
+                             │               Dim_Date               │
+                             ├──────────────────────────────────────┤
+                             │ PK  date_key (INT, YYYYMM)           │
+                             │     year (INT)                       │
+                             │     month (INT, 1-12)                │
+                             │     month_name (VARCHAR, Jan-Dec)    │
+                             │     quarter (VARCHAR, Q1-Q4)         │
+                             │     fiscal_year (VARCHAR, FY20-21...)│
+                             │  *  Year (Categorical) (Calculated)  │
+                             └──────────────────┬───────────────────┘
+                                                │
+                                                │ 1
+                                                │
+                                                │ N
+┌───────────────────────────────┐               ▼               ┌───────────────────────────────┐
+│           Dim_Bank            │    ┌─────────────────────┐    │       Dim_BankCategory        │
+├───────────────────────────────┤    │  Fact_Transaction   │    ├───────────────────────────────┤
+│ PK  bank_key (INT)            │◄───┤ PK  txn_id (BIGINT) ├───►│ PK  category_key (INT)        │
+│     bank_name (VARCHAR)       │ 1:N│ FK  date_key (INT)  │N:1 │     category_name (VARCHAR)   │
+│     anchor_bank (VARCHAR)     │    │ FK  bank_key (INT)  │    │     sector (VARCHAR)          │
+│     is_merged (BOOLEAN)       │    │ FK  category_key    │    └───────────────────────────────┘
+│     merge_year (INT)          │    │ FK  channel_key     │
+└───────────────────────────────┘    │                     │
+                                     │  Infrastructure:    │
+                                     │  • atm_onsite_count │
+                                     │  • atm_offsite_count│
+                                     │  • atm_total_count  │
+┌───────────────────────────────┐    │  • pos_online_count │
+│          Dim_Channel          │    │  • micro_atm_count  │
+├───────────────────────────────┤    │                     │
+│ PK  channel_key (INT)         │    │  Card Base:         │
+│     channel_name (VARCHAR)    │    │  • credit_cards_out │
+│     channel_type (VARCHAR)    │    │  • debit_cards_out  │
+│     is_digital (BOOLEAN)      │    │                     │
+└───────────────┬───────────────┘    │  Volumes:           │
+                │                    │  • credit_txn_atm_vol
+                │ 1                  │  • credit_txn_pos_vol
+                │                    │  • debit_txn_atm_vol│
+                │ N                  │  • debit_txn_pos_vol│
+                └───────────────────►│                     │
+                                     │  Values (₹ Lakhs):  │
+                                     │  • credit_atm_val   │
+                                     │  • credit_pos_val   │
+                                     │  • credit_total_val │
+                                     │  • debit_atm_val    │
+                                     │  • debit_pos_val    │
+                                     │  • debit_total_val  │
+                                     │                     │
+                                     │  Audit:             │
+                                     │  • is_reported      │
+                                     └─────────────────────┘
 ```
+
+### Power BI Semantic Model Enhancements (Tabular Layer)
+
+To optimize interactive dashboard responsiveness and reporting accuracy, the following enhancements were engineered directly into the Power BI tabular model:
+
+1. **Chronological Calendar Sorting:**
+   - `Dim_Date[month_name]` is mapped with `Sort By Column = month` to ensure chronological reporting (`January` ➔ `December`) across all matrices and charts.
+
+2. **Categorical Timeline Support:**
+   - Calculated column `Dim_Date[Year (Categorical)]` converts numeric years into formatted strings (`"2020"` to `"2024"`), preventing continuous hairline rendering and ensuring full-width column bars.
+
+3. **Drill-Down Hierarchies:**
+   - **`Calendar Hierarchy`:** `Year` ➔ `Quarter` ➔ `Month`
+   - **`Fiscal Hierarchy`:** `Fiscal Year` ➔ `Quarter` ➔ `Month`
+   - **`Sector Hierarchy`:** `Sector` ➔ `Bank Category`
+   - **`Bank Entity Hierarchy`:** `Anchor Bank` ➔ `Bank Name` (drill down from merged anchor to constituent entities)
+
+4. **35 Curated DAX Measures (Organized into 6 Display Folders):**
+   - **`1. Infrastructure Metrics`:** `[Total ATMs]`, `[On-Site ATMs]`, `[Off-Site ATMs]`, `[Off-Site ATM Share %]`, `[Total POS Terminals]`, `[Total Micro ATMs]`, `[Total Acceptance Touchpoints]`
+   - **`2. Card Issuance`:** `[Total Credit Cards]`, `[Total Debit Cards]`, `[Total Cards in Force]`, `[Credit Card Share %]`, `[Debit Card Share %]`
+   - **`3. Transaction Volumes`:** `[Debit ATM Txn Volume]`, `[Debit POS Txn Volume]`, `[Total Debit Txn Volume]`, `[Credit POS Txn Volume]`, `[Total Digital Txn Volume]`, `[Debit Digital Volume %]`, `[Debit Cash Volume %]`
+   - **`4. Transaction Values (Lakh / Cr)`:** `[Credit POS Txn Value (Lakh)]`, `[Total Credit Txn Value (Lakh)]`, `[Debit POS Txn Value (Lakh)]`, `[Total Digital Spend (Lakh)]`, `[Total Digital Spend (Cr)]`, `[Total Card Spend (Cr)]`
+   - **`5. Ticket Sizes & Ratios`:** `[Avg Credit POS Ticket Size (Rs)]`, `[Avg Debit POS Ticket Size (Rs)]`, `[Avg Debit ATM Withdrawal (Rs)]`
+   - **`6. Model Metadata`:** `[Reporting Banks Count]`, `[Reporting Periods Count]`
 
 ---
 
