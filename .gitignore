@@ -1,0 +1,64 @@
+# Documentation and raw instructions to exclude
+PLAN.md
+*.pdf
+dashboard/PowerBI_Guide.md
+*instruction*.md
+*guide*.md
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+~$*.pptx
+~$*.docx
+~$*.xlsx
+*.tmp
+
+# Scratch and system generated logs
+scratch/
+.system_generated/
+*.log
