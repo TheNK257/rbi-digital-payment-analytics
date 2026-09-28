@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Executive Summary
+## Executive Summary
 This project implements an end-to-end Business Intelligence (BI) and Data Warehousing solution analyzing bank-wise digital payment performance across India over a **60-month historical timeframe (January 2020 – December 2024)**. 
 
 The raw dataset is extracted directly from the official **Reserve Bank of India (RBI)** portal (`https://www.rbi.org.in`), capturing payment infrastructure (ATMs, PoS, Micro ATMs, QR Codes) and transactional volumes/values across **Credit Cards** and **Debit Cards** for over **180 Scheduled Commercial, Public, Private, Foreign, Small Finance, and Payments Banks**.
@@ -18,7 +18,7 @@ The project delivers:
 
 ---
 
-## 🏛 Technical Architecture
+## Technical Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -68,7 +68,7 @@ The project delivers:
 
 ---
 
-## 📂 Project Repository Structure
+## Project Repository Structure
 
 ```
 BI/
@@ -102,7 +102,7 @@ BI/
 
 ---
 
-## 🧹 ETL Transformation Details & Data Quality Fixes
+## ETL Transformation Details & Data Quality Fixes
 
 During the 2020–2024 period, RBI reporting underwent substantial real-world changes. The ETL pipeline programmatically handles:
 
@@ -116,7 +116,7 @@ During the 2020–2024 period, RBI reporting underwent substantial real-world ch
 
 ---
 
-## 🗄 Dimensional Model (Star Schema)
+## Dimensional Model (Star Schema)
 
 The database `rbi_banking_bi` is organized into a Star Schema with **1 central Fact table** and **4 Dimension tables**:
 
@@ -162,7 +162,7 @@ The database `rbi_banking_bi` is organized into a Star Schema with **1 central F
 
 ---
 
-## 📊 6 Power BI KPI Visuals
+## 6 Power BI KPI Visuals
 
 | # | Visual Title | Chart Type | Fields & Dimensions | Core Business Insight |
 |---|---|---|---|---|
@@ -175,7 +175,7 @@ The database `rbi_banking_bi` is organized into a Star Schema with **1 central F
 
 ---
 
-## 🚀 Execution & Setup Guide
+## Execution & Setup Guide
 
 ### 1. Prerequisites
 - Python 3.10+
@@ -220,7 +220,7 @@ python database/load.py <your_mysql_root_password>
 
 ---
 
-## 👥 Authors & Academic Credentials
+## Authors & Academic Credentials
 - **Student 1:** Naman Kadam | Final Year B.Tech CSE (Data Science)
 - **Course:** Business Intelligence (23UDSPEL4704A)
 - **Institution:** G H Raisoni College of Engineering and Management, Pune
