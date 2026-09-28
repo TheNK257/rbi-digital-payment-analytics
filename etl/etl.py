@@ -292,10 +292,17 @@ def parse_raw_file(filepath):
             raw_bank = raw_vals[0]
             data_cols = raw_vals[1:]
 
-        # Skip headers / totals
+        # Skip headers / totals / footnote rows
         if not raw_bank or raw_bank.upper() in ['TOTAL', 'TOTAL NUMBER', 'BANK NAME', 'SUB TOTAL']:
             continue
-        if any(h in raw_bank.upper() for h in ['SCHEDULED COMMERCIAL', 'PUBLIC SECTOR', 'PRIVATE SECTOR', 'FOREIGN BANKS']):
+        raw_upper = raw_bank.upper()
+        if any(h in raw_upper for h in [
+            'SCHEDULED COMMERCIAL', 'PUBLIC SECTOR', 'PRIVATE SECTOR', 'FOREIGN BANKS',
+            'TOTAL NUMBER', 'TOTAL VALUE', 'FINANCIAL TRANSACTIONS', 'OUTSTANDING CARDS',
+            'NUMBER OF', 'VALUE OF', 'TRANSACTIONS DONE', 'NOTE', 'PROVISIONAL',
+            'CARDS WITHDRAWAN', 'CARDS WITHDRAWN', 'CASH WITHDRAWAL TRANSACTIONS',
+            'E-COMMERCE SITES', 'POS TERMINALS', 'MAIL-ORDER'
+        ]):
             continue
 
         bank_name = normalize_bank_name(raw_bank)
